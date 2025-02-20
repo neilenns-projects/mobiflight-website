@@ -21,7 +21,7 @@ subtitle = "the open-source, plug-and-play solution for building custom cockpit 
 link_url = "https://www.mobiflight.com/download/"
 link_text = "Download"
 
-[params.clients]
+[params.sponsors]
 enable = true
 title = "MobiFlight sponsors & supporters"
 subtitle = "[Premium sponsors](sponsor/) who support the MobiFlight project with a monthly donation"
