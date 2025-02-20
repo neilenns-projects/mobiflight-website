@@ -1,3 +1,4 @@
 name: "SIMiONIC"
 image: "img/clients/simionic.png"
 url: "https://www.simionic.net/?ref=mobiflight"
+weight: 10

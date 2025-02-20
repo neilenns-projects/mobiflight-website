@@ -1,3 +1,4 @@
 name: "miniCOCKPIT"
 image: "img/clients/minicockpit.png"
 url: "https://www.minicockpit.com/"
+weight: 20
