@@ -26,6 +26,9 @@ enable = true
 title = "MobiFlight sponsors & supporters"
 subtitle = "[Premium sponsors](sponsor/) who support the MobiFlight project with a monthly donation"
 
+[params.CarouselSponsors]
+auto_play = true
+
 [[menu.main]]
 name = "Documentation"
 identifier = "menu.docs"
