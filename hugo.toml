@@ -2,3 +2,13 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'MobiFlight'
 theme = "hugo-arcana"
+
+[params]
+  [[params.social]]
+    title = "GitHub"
+    icon = "fa-github"
+    url = "https://www.github.com/MobiFlight/MobiFlight-connector"
+  [[params.social]]
+    title = "Discord"
+    icon = "fa-discord"
+    url = "https://discord.gg/yUaBqMbz"
