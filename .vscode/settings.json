@@ -23,5 +23,12 @@
       "other": "on"
     }
   },
-  "cSpell.words": ["minicockpit", "mobiflight", "neilenns"]
+  "cSpell.words": [
+    "isset",
+    "markdownify",
+    "minicockpit",
+    "mobiflight",
+    "neilenns",
+    "octavi"
+  ]
 }
