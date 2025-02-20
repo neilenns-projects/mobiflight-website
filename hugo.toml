@@ -1,14 +1,45 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.mobiflight.com/'
 languageCode = 'en-us'
 title = 'MobiFlight'
-theme = "hugo-arcana"
+theme = "hugo-universal-theme"
 
 [params]
-  [[params.social]]
-    title = "GitHub"
-    icon = "fa-github"
-    url = "https://www.github.com/MobiFlight/MobiFlight-connector"
-  [[params.social]]
-    title = "Discord"
-    icon = "fa-discord"
-    url = "https://discord.gg/yUaBqMbz"
+disabled_logo = false
+logo_text = "MobiFlight"
+logo = "android-chrome-512x512.png"
+logo_small = "android-chrome-192x192.png"
+style = "blue"
+
+[params.features]
+enable = true
+cols = 3      # Default: 3, Available values 2,3,4,6
+
+[params.see_more]
+enable = true
+title = "Turn your flight sim dreams into reality with MobiFlight"
+subtitle = "the open-source, plug-and-play solution for building custom cockpit hardware without coding."
+link_url = "https://www.mobiflight.com/download/"
+link_text = "Download"
+
+[params.clients]
+enable = true
+title = "MobiFlight sponsors & supporters"
+subtitle = "[Premium sponsors](sponsor/) who support the MobiFlight project with a monthly donation"
+
+[[menu.main]]
+name = "Documentation"
+identifier = "menu.docs"
+url = "https://docs.mobiflight.com/"
+weight = 10
+
+[[menu.main]]
+name = "Support"
+identifier = "menu.support"
+url = "https://discord.gg/yUaBqMbz"
+weight = 20
+
+[[menu.main]]
+name = "Donate"
+identifier = "menu.donate"
+url = "https://docs.mobiflight.com/donate/"
+weight = 30
